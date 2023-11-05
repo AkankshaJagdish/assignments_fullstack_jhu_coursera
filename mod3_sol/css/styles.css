@@ -1,0 +1,57 @@
+/* Hide navigation items for desktop and tablet */
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: none;
+  }
+  .container {
+    width: 700px;
+  }
+
+  .navbar-default .navbar-collapse {
+    border-color: #e7e7e7;
+    background-color: rgb(175, 175, 175);
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+
+.navbar-default .navbar-brand {
+  color: #000000;
+}
+
+.navbar {
+  background-color: rgb(175, 175, 175);
+}
+
+/* Make the tall section 1000px in height */
+.bg-primary {
+  min-height: 1000px;
+  margin: 50px;
+  background-color: rgb(175, 175, 175);
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    border-color: #e7e7e7;
+    background-color: white;
+  }
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
